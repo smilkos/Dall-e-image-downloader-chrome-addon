@@ -1,0 +1,25 @@
+body {
+    background-color: #b7c9e7;
+}
+div {
+    width: 50%;
+    
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #fff;
+}
+.mainHeader {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.optionHeader {
+    font-size: 2em;
+    margin: 5px;
+}
+#textInput {
+    width: 350px;
+    font-size: 1.3em;
+}

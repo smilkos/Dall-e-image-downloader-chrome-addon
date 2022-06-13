@@ -1,0 +1,28 @@
+button {
+  padding: 10px 10px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4688f1;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 6px #999;
+}
+
+body {
+    padding: 15px 15px;
+    width: 120px;
+}
+
+button.current {
+  box-shadow: 0 0 0 2px white,
+              0 0 0 4px black;
+}
+
+button:active {
+  background-color: #4688f1;
+  box-shadow: 0 4px #666;
+  transform: translateY(2px);
+}
